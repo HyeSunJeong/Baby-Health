@@ -17,48 +17,9 @@
         android:minDate="01/01/2020"
         android:selectedWeekBackgroundColor="#CD2E2E"
         android:showWeekNumber="false"
-        android:unfocusedMonthDateColor="#0000ff"
-        android:weekSeparatorLineColor="#00ff00" />
+        android:unfocusedMonthDateColor="#0000ff">
 
-
-    // 달력 아래의 버튼들
-    <?xml version="1.0" encoding="utf-8"?>
-    <RelativeLayout
-        android:id="@+id/Home"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <Button
-            android:id="@+id/edit_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentBottom="true"
-            android:gravity="center"
-            android:text="기준 편집"
-            android:textSize="20dp" />
-
-        <Button
-            android:id="@+id/statistics_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_toLeftOf="@id/stopwatch_button"
-            android:gravity="center"
-            android:text="공부한 양"
-            android:textSize="20dp" />
-
-        <Button
-            android:id="@+id/stopwatch_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:gravity="center"
-            android:text="시작"
-            android:textSize="20dp" />
-
-    </RelativeLayout>
+    </CalendarView>
 
 
 // 달력 관련 명령어들
@@ -75,6 +36,6 @@
     android:showWeekNumber="false"
     android:unfocusedMonthDateColor="#0000ff"
     android:weekSeparatorLineColor="#00ff00" />'
-    </CalenderView
+
 
 </RelativeLayout>
